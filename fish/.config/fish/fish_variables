@@ -1,6 +1,7 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
-SETUVAR --path PATH:/home/abetemps/\x2elocal/\x2ecargo/bin\x1e/home/abetemps/\x2elocal/kitty\x2eapp/bin\x1e/usr/local/sbin\x1e/usr/local/bin\x1e/usr/sbin\x1e/usr/bin\x1e/sbin\x1e/bin\x1e/usr/games\x1e/usr/local/games\x1e/snap/bin\x1e/home/abetemps/\x2elocal/nvim\x2eapp/bin/\x1e/home/abetemps/\x2edotnet/tools
+SETUVAR --path PATH:/home/abetemps/\x2elocal/\x2ecargo/bin\x1e/home/abetemps/\x2elocal/bin\x1e/usr/local/sbin\x1e/usr/local/bin\x1e/usr/sbin\x1e/usr/bin\x1e/sbin\x1e/bin\x1e/usr/games\x1e/usr/local/games\x1e/snap/bin\x1e/home/abetemps/\x2elocal/bin/\x1e/home/abetemps/\x2edotnet/tools
+SETUVAR --export XDG_DATA_DIRS:/home/abetemps/\x2elocal/lib/kitty/shell\x2dintegration\x3a/usr/share/ubuntu\x3a/usr/share/gnome\x3a/usr/local/share\x3a/usr/share\x3a/var/lib/snapd/desktop
 SETUVAR __fish_initialized:3100
 SETUVAR _fisher_upgraded_to_4_4:\x1d
 SETUVAR fish_color_autosuggestion:BD93F9
@@ -32,7 +33,7 @@ SETUVAR fish_pager_color_description:B3A06D\x1eyellow
 SETUVAR fish_pager_color_prefix:normal\x1e\x2d\x2dbold\x1e\x2d\x2dunderline
 SETUVAR fish_pager_color_progress:brwhite\x1e\x2d\x2dbackground\x3dcyan
 SETUVAR fish_pager_color_selected_background:\x2dr
-SETUVAR fish_user_paths:/home/abetemps/\x2elocal/bin\x1e/home/abetemps/\x2elocal/kitty\x2eapp/bin\x1e/usr/local/cargo/bin\x1e/usr/local/sbin\x1e/usr/local/bin\x1e/usr/sbin\x1e/usr/bin\x1e/sbin\x1e/bin\x1e/usr/games\x1e/usr/local/games\x1e/snap/bin\x1e/home/abetemps/\x2elocal/kitty\x2eapp/bin\x1e/usr/local/cargo/bin\x1e/usr/local/sbin\x1e/usr/local/bin\x1e/usr/sbin\x1e/usr/bin\x1e/sbin\x1e/bin\x1e/usr/games\x1e/usr/local/games\x1e/snap/bin\x1e/home/abetemps/\x2elocal/nvim\x2eapp/bin/
+SETUVAR fish_user_paths:/home/abetemps/\x2elocal/bin\x1e/home/abetemps/\x2elocal/bin\x1e/usr/local/cargo/bin\x1e/usr/local/sbin\x1e/usr/local/bin\x1e/usr/sbin\x1e/usr/bin\x1e/sbin\x1e/bin\x1e/usr/games\x1e/usr/local/games\x1e/snap/bin\x1e/home/abetemps/\x2elocal/bin\x1e/usr/local/cargo/bin\x1e/usr/local/sbin\x1e/usr/local/bin\x1e/usr/sbin\x1e/usr/bin\x1e/sbin\x1e/bin\x1e/usr/games\x1e/usr/local/games\x1e/snap/bin\x1e/home/abetemps/\x2elocal/bin/
 SETUVAR pure_begin_prompt_with_current_directory:true
 SETUVAR pure_check_for_new_release:false
 SETUVAR pure_color_at_sign:pure_color_mute
