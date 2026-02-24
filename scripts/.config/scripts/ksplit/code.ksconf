@@ -1,0 +1,14 @@
+pane main("nvim ./sources/main.*")
+  split right 30
+
+pane sources("nvim ./sources/*/*.{c,cpp}")
+  focus main
+  split right 70
+
+pane includes("nvim ./includes/*.{h,hpp}")
+  focus sources
+  split right 50
+
+pane term()
+  focus main
+  split below 30

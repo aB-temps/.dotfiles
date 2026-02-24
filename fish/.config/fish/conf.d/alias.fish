@@ -21,5 +21,6 @@ alias gl="git pull"
 
 #=========== SCRIPTS
 alias cmt="$HOME/.config/scripts/commit_maker.sh"
+alias ksplit="$HOME/.config/scripts/ksplit.sh"
 
 #=========== TO SORT
