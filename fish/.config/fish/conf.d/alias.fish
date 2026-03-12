@@ -22,5 +22,6 @@ alias gl="git pull"
 #=========== SCRIPTS
 alias cmt="$HOME/.config/scripts/commit_maker.sh"
 alias ksplit="$HOME/.config/scripts/ksplit.sh"
+alias install-app="/home/abetemps/.config/scripts/install-app.sh"
 
 #=========== TO SORT
