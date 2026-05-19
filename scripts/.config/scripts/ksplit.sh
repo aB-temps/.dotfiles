@@ -300,6 +300,10 @@ main() {
     esac
   done
 
+  if [[ "$preset" == "config" ]]; then
+	  nvim "$HOME/.dotfiles/scripts/.config/scripts/ksplit/"; exit 0;
+  fi
+
   if [[ -z "$preset" ]]; then
     echo "  Error: no preset specified."
     _list_presets; exit 1

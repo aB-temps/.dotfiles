@@ -1,0 +1,34 @@
+pane main("nvim ./sources/*.{c, cpp}")
+ split right 30
+
+pane sources_1("nvim ./sources/classes/*/*.{c,cpp,tpp}")
+ focus main
+ split right 80
+
+pane includes_1("nvim ./sources/classes/*/*.{h,hpp,ipp}
+ focus sources_1
+ split right 50
+
+pane sources_2("nvim ./sources/classes/*/*.{c,cpp}")
+ focus sources_1
+ split below 50
+
+pane sources_2right("nvim ./sources/classes/*/*.tpp")
+ focus sources_2
+ split right 50
+
+pane includes_2("nvim ./sources/classes/*/*.{h,hpp,ipp}
+ focus includes_1
+ split below 50
+
+pane includes_2right("nvim ./sources/classes/*/*.{h,hpp,ipp}
+ focus includes_2
+ split right 50
+
+pane serv("clear && make && ./webserv")
+ focus main
+ split below 60
+
+pane term()
+ focus serv
+ split below 50
