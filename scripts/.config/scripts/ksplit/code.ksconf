@@ -1,11 +1,11 @@
-pane main("nvim ./sources/*.{c, cpp}")
+pane main("nvim .")
   split right 30
 
-pane sources("nvim ./sources/*/*.{c,cpp}")
+pane sources("nvim .")
   focus main
   split right 70
 
-pane includes("nvim ./includes/*.{h,hpp} ; nvim ./templates/*.tpp")
+pane includes("nvim .")
   focus sources
   split right 50
 
