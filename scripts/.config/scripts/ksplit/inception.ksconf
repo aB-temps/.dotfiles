@@ -1,0 +1,22 @@
+pane a("ssh root@localhost -p 4242")
+  split right 33
+
+pane b("ssh root@localhost -p 4242")
+  focus a
+  split right 66
+
+pane c("ssh root@localhost -p 4242")
+  focus b
+  split left 50
+
+pane d("ssh root@localhost -p 4242")
+  focus a
+  split below 50
+
+pane e("ssh root@localhost -p 4242")
+  focus b
+  split below 50
+
+pane f("ssh root@localhost -p 4242")
+  focus c
+  split below 50
