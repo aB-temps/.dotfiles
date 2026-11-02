@@ -1,0 +1,40 @@
+# History
+HISTFILE=~/.zsh_history
+HISTSIZE=10000
+SAVEHIST=10000
+
+setopt share_history hist_ignore_dups
+
+# Completion
+autoload -Uz compinit && compinit
+zstyle ':completion:*' menu select
+zmodload zsh/complist
+bindkey -M menuselect 'h' vi-backward-char
+bindkey -M menuselect 'l' vi-forward-char
+bindkey -M menuselect 'j' vi-down-line-or-history
+bindkey -M menuselect 'k' vi-up-line-or-history
+
+# Keyboard
+bindkey -v
+
+# Prompt
+autoload -Uz vcs_info
+precmd() { vcs_info }
+zstyle ':vcs_info:git:*' formats ' (%b)'
+setopt prompt_subst
+PROMPT='%F{blue}%~%f%F{yellow}${vcs_info_msg_0_} %f %# '
+
+# Env
+export EDITOR=nvim
+export PATH="$HOME/.local/bin:$PATH"
+
+# Alias
+alias n=nvim
+alias ll='ls -lah --color=auto'
+
+# fzf
+source <(fzf --zsh)
+
+# Plugins
+source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
