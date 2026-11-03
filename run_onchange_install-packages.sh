@@ -24,4 +24,7 @@ sudo dnf install -y \
 	fd-find \
 	fzf \
 	brightnessctl \
-	pavucontrol
+	pavucontrol \
+	eza \
+	zoxide \
+	zathura
