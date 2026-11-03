@@ -1,6 +1,7 @@
 * {
-    font-family: 'Noto Sans Mono', 'Font Awesome 6 Free', 'Font Awesome 6 Brands', monospace;
+    font-family: "FiraCode Nerd Font";
     font-size: 13px;
+    font-feature-settings: "calt", "liga";
 }
 
 window#waybar {
