@@ -1,0 +1,18 @@
+name = "Rosé Pine"
+
+[colors]
+bg        = "#191724"
+fg        = "#e0def4"
+accent    = "#c4a7e7"
+muted     = "#6e6a86"
+selection = "#26233a"
+red       = "#eb6f92"
+green     = "#31748f"
+yellow    = "#f6c177"
+blue      = "#9ccfd8"
+magenta   = "#c4a7e7"
+cyan      = "#ebbcba"
+
+[font]
+family = "JetBrains Mono"
+size   = 12

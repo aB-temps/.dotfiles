@@ -1,0 +1,16 @@
+# dye configuration. Edit it by hand, or run `dye` for the menu.
+
+# Active theme: the name of a file in themes/, without .toml
+theme = "catppuccin-mocha"
+
+# Tools to configure: one section per tool.
+# Add `enabled = false` in a section to skip that tool.
+# Options: output (file to write), template (your own template),
+#          reload (command run after writing, e.g. ["makoctl", "reload"]).
+[targets.ghostty]
+[targets.niri]
+[targets.waybar]
+[targets.fuzzel]
+[targets.mako]
+[targets.swaylock]
+[targets.fzf]

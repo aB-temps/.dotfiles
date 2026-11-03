@@ -1,0 +1,18 @@
+name = "Tomorrow Night Burns"
+
+[colors]
+bg        = "#151515"
+fg        = "#a1b0b8"
+accent    = "#fc595f"
+muted     = "#5d6f71"
+selection = "#252525"
+red       = "#832e31"
+green     = "#a63c40"
+yellow    = "#d3494e"
+blue      = "#fc595f"
+magenta   = "#df9395"
+cyan      = "#ba8586"
+
+[font]
+family = "JetBrains Mono"
+size   = 12

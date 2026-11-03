@@ -1,3 +1,5 @@
+config-file = ?dye
+
 window-decoration = none
 gtk-titlebar = false
 window-padding-x = 8

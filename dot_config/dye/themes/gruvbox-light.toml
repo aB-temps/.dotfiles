@@ -1,0 +1,18 @@
+name = "Gruvbox Light"
+
+[colors]
+bg        = "#fbf1c7"
+fg        = "#3c3836"
+accent    = "#af3a03"
+muted     = "#928374"
+selection = "#ebdbb2"
+red       = "#9d0006"
+green     = "#79740e"
+yellow    = "#b57614"
+blue      = "#076678"
+magenta   = "#8f3f71"
+cyan      = "#427b58"
+
+[font]
+family = "JetBrains Mono"
+size   = 12

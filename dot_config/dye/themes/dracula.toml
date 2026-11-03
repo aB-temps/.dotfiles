@@ -1,0 +1,18 @@
+name = "Dracula"
+
+[colors]
+bg        = "#282a36"
+fg        = "#f8f8f2"
+accent    = "#bd93f9"
+muted     = "#6272a4"
+selection = "#44475a"
+red       = "#ff5555"
+green     = "#50fa7b"
+yellow    = "#f1fa8c"
+blue      = "#bd93f9"
+magenta   = "#ff79c6"
+cyan      = "#8be9fd"
+
+[font]
+family = "JetBrains Mono"
+size   = 12

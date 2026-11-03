@@ -1,1 +1,23 @@
 font=FiraCode Nerd Font
+
+# >>> dye >>> theme 'catppuccin-mocha', managed by dye, do not edit
+font=JetBrains Mono
+font-size=12
+color=1e1e2e
+inside-color=1e1e2e
+ring-color=6c7086
+key-hl-color=cba6f7
+bs-hl-color=f38ba8
+text-color=cdd6f4
+inside-ver-color=1e1e2e
+ring-ver-color=89b4fa
+text-ver-color=cdd6f4
+inside-wrong-color=1e1e2e
+ring-wrong-color=f38ba8
+text-wrong-color=f38ba8
+inside-clear-color=1e1e2e
+ring-clear-color=f9e2af
+text-clear-color=cdd6f4
+line-color=00000000
+separator-color=00000000
+# <<< dye <<<

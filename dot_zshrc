@@ -35,6 +35,7 @@ alias ll='eza -lah --git --group-directories-first --icons=auto'
 alias lt='eza --tree --level=2 --icons=auto'
 
 # fzf
+source ~/.config/dye/fzf.sh
 source <(fzf --zsh)
 
 # zoxide
