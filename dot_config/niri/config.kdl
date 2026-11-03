@@ -271,6 +271,7 @@ layout {
 spawn-at-startup "waybar"
 spawn-at-startup "kanshi"
 spawn-at-startup "swaylock"
+spawn-at-startup "udiskie"
 
 // To run a shell command (with variables, pipes, etc.), use spawn-sh-at-startup:
 // spawn-sh-at-startup "qs -c ~/source/qs/MyAwesomeShell"

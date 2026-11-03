@@ -30,10 +30,15 @@ export PATH="$HOME/.local/bin:$PATH"
 
 # Alias
 alias n=nvim
-alias ll='ls -lah --color=auto'
+alias ls='eza --group-directories-first --icons=auto'
+alias ll='eza -lah --git --group-directories-first --icons=auto'
+alias lt='eza --tree --level=2 --icons=auto'
 
 # fzf
 source <(fzf --zsh)
+
+# zoxide
+eval "$(zoxide init zsh)"
 
 # Plugins
 source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
