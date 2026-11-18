@@ -1,7 +1,27 @@
-@import "dye.css";     /* @bg @fg @accent @muted … + police */
+@import "dye.css";
 
-window#waybar { background: transparent; color: @fg; }
+window#waybar {
+    background: transparent;
+    color: @fg;
+}
 * { text-shadow: 0 0 6px @bg; }
-#workspaces button { color: @muted; }
+
+#workspaces button {
+    color: @muted;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    padding: 0 4px;
+    min-width: 0;
+}
 #workspaces button.active { color: @accent; }
-#clock { font-weight: bold; color: @accent; }
+#workspaces button.urgent { color: @red; }
+#workspaces button:hover { background: transparent; color: @fg; }
+
+#clock { color: @accent; font-weight: bold; }
+#battery.warning:not(.charging) { color: @yellow; }
+#battery.critical:not(.charging), #pulseaudio.muted { color: @red; }
+
+tooltip { background: @bg; border: 2px solid @accent; border-radius: 14px; }
+tooltip label { color: @fg; text-shadow: none; }
+
